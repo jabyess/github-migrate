@@ -5,11 +5,11 @@
 Clone this repo, then
 
 ```sh
- $ cd <cloned directory>
+ $ cd github-migrate
  $ npm install
 ```
 
-* Create a personal access token https://github.com/settings/tokens. Make sure to give yourself appropriate permissions.
+* Create a personal access token https://github.com/settings/tokens. Make sure to give yourself appropriate permissions (like delete if you want to delete stuff).
 * Copy .env.sample to a new file, .env, in the root dir. 
 * Fill out the appropriate values. 
 * Guide for values:
@@ -34,3 +34,11 @@ Note: you must have given yourself delete permissions in your personal access to
 `node repo.js clone`
 
 If you are prompted for your github username and password, enter them. You should only have to do this once, since they will be cached.
+
+## Notes
+
+This script _should_ work and migrate all branches. Sometimes refs break or cause merge conflicts.
+
+I take no responsibility if you blow away stuff and lose all your work.
+
+Shoutout to [@superbuggy](https://github.com/superbuggy) for figuring out all the multi-branch shenanigans.
