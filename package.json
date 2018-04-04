@@ -1,0 +1,19 @@
+{
+  "name": "migrate-from-exercise-lessons-orgs",
+  "version": "1.0.0",
+  "description": "> from `ga-wdi-exercises` and `ga-wdi-lessons`",
+  "main": "repo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:ga-jamesreichard/migrate-from-exercise-lessons-orgs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1"
+  }
+}
